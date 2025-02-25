@@ -5,7 +5,7 @@
 part of dart.io;
 
 // Read the file in blocks of size 64k.
-const int _blockSize = 64 * 1024;
+const int _blockSize = 128 * 1024;
 
 // The maximum number of bytes to read in a single call to `read`.
 //
